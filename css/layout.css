@@ -1,0 +1,14 @@
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1.5rem 1fr 1.5rem;
+
+    outline: 2px solid magenta;
+}
+
+header,
+main,
+footer {
+    grid-column: 2/3;
+}
